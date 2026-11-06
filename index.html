@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050806">
+<title>HUMO AI</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#050806;--card:#0e1410;--text:#f2f6f2;--mut:#8fa396;--acc:#3fd35b;--acc2:#8ef08a;--line:#1d2b21;--logo:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAABIFBMVEWl251ooBxfm1ntViph1mHTLg9aZ1qc5nX4sRWtGQY21WJMZirk5Nc6VUMgJhoojkSgqpW9xcNl6IS8vcHf26kpSgkkjzr3zVk7PkCLrG+Uyi+Fuyr0k1ZcNAalUCHxdEXctK55soujYFf9yi4DBAULFRL39/cMJhbo6OnW19kONhotODPHyMuQ5XUlKClw12i0t7hMyFs0xlkTSCIUVyamqKuTlpdGSEtT1FozpkxSVldydnk0uFOFiIxP12MrRS4umEYXZyoQQxllaGpJuFQbdzEmhzcZJCIqdjbd3uAtVy8tZzI1aARx5mpOhg8TOCMrVwZLqEuG23DQ6dBFeQpWymKv+IktlDve4OE8dAeanaL8xy54e4J8g4aco6Ru2Fypw5czAAAAYHRSTlP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ebwvOAAAZuUlEQVR42u2diV/a2rbHMeXgqQNqHdqe4Z5z79ubjIQwBQgyyCxIBWuLtbX+///FW2sngYQMDGJvz3uuj7USM+xvfmuvPW8j5P+IRV5AXkBeQF5AXkBeQF5A/n+DUMpL19c1NNnHamvZ7Hq1S+mzg/C1fm9/f38wGPT7/VotG8CyEePpM4HQ2j530BvkspLET40+l3VVhKGbB6lx3MEAGEzj+R/AwmhUukkQOhjXGcX1D6SwTF0SZQkQ2hvXczbFD8YwdaEbARm0JlnpOuv1qR/EsSTKIhBpXMpJ2aw3b9Afat3uE0F66R5gXP+XMVheoU8AoeNWLvtkOVxl6fIXUcK+Ty1O1wbhW5OGH8dKyaFyrT/Yj+2j9bOslFsNnvgfXQEkztzKw7EChNznuGhq+Ma2aLV6Xu8hTRhB0DESShIMcpq+mOXyVfUAOfvcdjKCNuOIVnfQMvUcH6ALCVEonCQSrMdFY83sAc/c5SKfP0e2OS426LNKYb+/f1A/2DFJdnbOO1mfRMORbqizhZAEgfBrcxAiA0WEi9U81T7KZwd1lATsfOJBIUEYlmuFahIAQlu99UoPqJW9j0S4Pu8bpdix7MH5Tua8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");color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.lg{display:block;background:var(--logo) center/contain no-repeat;flex:none;border-radius:22%}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#0f2e19 0,var(--bg) 60%) fixed,var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:520px;margin:0 auto;padding:16px 14px 40px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+h1{margin:0;font-size:26px;letter-spacing:1px}h1 span{color:var(--acc)}
+.lang button{width:auto;padding:6px 10px;margin-left:4px;font-size:13px;background:var(--card);color:var(--text);border:1px solid var(--line)}
+.lang button.on{background:var(--acc);color:#04140a;border-color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin-bottom:12px}
+h2{margin:0 0 10px;font-size:16px}
+button{font:inherit;border:0;border-radius:12px;padding:11px 16px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#04140a;font-weight:700;width:100%;cursor:pointer}
+button:disabled{opacity:.5}
+input{font:inherit;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--text);width:100%}
+.big{font-size:38px;font-weight:800;color:var(--acc);line-height:1}
+.bar{height:12px;border-radius:8px;background:var(--line);overflow:hidden;margin:10px 0 6px}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .4s}
+.bar.over i{background:#d33}
+.mut{color:var(--mut);font-size:13px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row .nm{flex:1;min-width:0}
+.row input{width:72px;padding:7px}
+.row button{width:auto;padding:7px 12px}
+.g{display:flex;gap:8px}
+.x{background:none;color:var(--mut);padding:4px 8px;width:auto;font-size:18px}
+img#pv{width:100%;max-height:260px;object-fit:cover;border-radius:14px;display:none;margin-bottom:10px}
+.drop{display:block;text-align:center;border:2px dashed var(--acc);border-radius:16px;padding:20px 10px;cursor:pointer;color:var(--mut)}
+.err{color:#d33;margin-top:8px;font-size:14px}
+#list{max-height:360px;overflow:auto;margin-top:8px}
+.x{background:none!important;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<div class="top"><h1 style="display:flex;align-items:center;gap:8px"><i class="lg" style="width:42px;height:42px"></i>HUMO <span>AI</span></h1><div class="lang" id="lang"></div></div>
+<div id="auth" class="card"><div class="lg" style="width:190px;height:190px;margin:0 auto 14px"></div><input id="an" type="text" autocomplete="username" data-p="nm" style="margin-bottom:8px"><input id="ap" type="password" autocomplete="current-password" data-p="pw" style="margin-bottom:10px"><button id="ab"></button><button id="at" class="x" style="margin-top:8px;width:100%;color:var(--acc)!important"></button><div id="ae" class="err"></div></div>
+<div id="app" style="display:none"><div style="text-align:right;margin-bottom:8px"><span class="mut" id="who"></span> <button id="out" class="x" data-t="logout" style="font-size:14px"></button></div>
+
+<div class="card">
+  <h2 data-t="today"></h2>
+  <div class="g" style="align-items:baseline"><div class="big" id="eaten">0</div><div class="mut">/ <span id="goalv">2000</span> <span data-t="kcal"></span></div></div>
+  <div class="bar" id="bar"><i id="fill"></i></div>
+  <div class="mut" id="left"></div>
+  <div class="g" style="margin-top:10px"><input id="goal" type="number" inputmode="numeric" min="500" max="10000" data-p="goalph"><button id="setg" style="width:auto" data-t="save"></button></div>
+</div>
+
+<div class="card">
+  <h2 data-t="log"></h2>
+  <div id="logl"></div>
+</div>
+
+<div class="card">
+  <h2 data-t="scan"></h2>
+  <img id="pv" alt="">
+  <label class="drop" id="drop"><div style="font-size:34px">📷</div><span data-t="take"></span><input id="file" type="file" accept="image/*" capture="environment" hidden></label>
+  <button id="go" style="display:none;margin-top:10px" data-t="analyze"></button>
+  <div id="err" class="err"></div>
+  <div id="res"></div>
+</div>
+
+<div class="card">
+  <h2 data-t="dishes"></h2>
+  <input id="q" type="search" data-p="search">
+  <div id="list"></div>
+</div>
+<p class="mut" style="text-align:center" data-t="note"></p>
+</div>
+</main>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var S={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+var T={
+uz:{today:"Bugun",kcal:"kkal",save:"Saqlash",goalph:"Kunlik maqsad (kkal)",log:"Bugun yeganlarim",scan:"Ovqatni skaner qilish",take:"Suratga oling yoki tanlang",analyze:"Kaloriyani aniqlash",dishes:"Taomlar bazasi",search:"Taom qidirish...",add:"+ Qo'shish",left:"Qoldi",over:"Me'yordan oshdi",empty:"Hali hech narsa qo'shilmagan",note:"Natijalar taxminiy, tibbiy maslahat emas.",ai:"AI skaner faqat onlayn versiyada ishlaydi.",fail:"Xatolik, qayta urinib ko'ring.",wait:"Tahlil qilinmoqda...",lang:"uzbek",p:"Oqsil",f:"Yog'",c:"Uglevod",g:"g",per:"100 g da",reg:"Ro'yxatdan o'tish",login:"Kirish",nm:"Ism / login",pw:"Parol (kamida 4 belgi)",noacc:"Hisobingiz yo'qmi? Ro'yxatdan o'ting",haveacc:"Hisobingiz bormi? Kiring",wrong:"Login yoki parol noto'g'ri",exists:"Bu login band",short:"Login va parolni to'ldiring (parol kamida 4 belgi)",logout:"Chiqish",hi:"Salom"},
+ru:{today:"Сегодня",kcal:"ккал",save:"Сохранить",goalph:"Дневная цель (ккал)",log:"Что я съел сегодня",scan:"Сканер еды",take:"Сфотографируйте или выберите",analyze:"Определить калории",dishes:"База блюд",search:"Поиск блюда...",add:"+ Добавить",left:"Осталось",over:"Превышена норма",empty:"Пока ничего не добавлено",note:"Результаты приблизительные, не медицинский совет.",ai:"ИИ-сканер работает только в онлайн-версии.",fail:"Ошибка, попробуйте снова.",wait:"Анализируем...",lang:"russian",p:"Белки",f:"Жиры",c:"Углеводы",g:"г",per:"на 100 г",reg:"Регистрация",login:"Войти",nm:"Имя / логин",pw:"Пароль (минимум 4 символа)",noacc:"Нет аккаунта? Зарегистрируйтесь",haveacc:"Уже есть аккаунт? Войти",wrong:"Неверный логин или пароль",exists:"Этот логин занят",short:"Заполните логин и пароль (минимум 4 символа)",logout:"Выйти",hi:"Привет"},
+en:{today:"Today",kcal:"kcal",save:"Save",goalph:"Daily goal (kcal)",log:"What I ate today",scan:"Food scanner",take:"Take a photo or choose one",analyze:"Estimate calories",dishes:"Dish database",search:"Search dishes...",add:"+ Add",left:"Left",over:"Over your goal",empty:"Nothing added yet",note:"Estimates only, not medical advice.",ai:"AI scanner works only in the online version.",fail:"Error, please try again.",wait:"Analyzing...",lang:"english",p:"Protein",f:"Fat",c:"Carbs",g:"g",per:"per 100 g",reg:"Sign up",login:"Log in",nm:"Name / username",pw:"Password (min 4 characters)",noacc:"No account? Sign up",haveacc:"Have an account? Log in",wrong:"Wrong username or password",exists:"This username is taken",short:"Enter username and password (min 4 characters)",logout:"Log out",hi:"Hello"}
+};
+// [uz, ru, en, kcal/100g, portion g]
+var D=[
+["Palov (osh)","Плов","Plov (pilaf)",190,300],["Somsa (go'shtli)","Самса с мясом","Samsa (meat)",280,120],["Somsa (qovoqli)","Самса с тыквой","Samsa (pumpkin)",230,120],
+["Lag'mon","Лагман","Lagman",130,400],["Qovurma lag'mon","Жареный лагман","Fried lagman",170,350],["Manti","Манты","Manti",200,200],["Chuchvara","Чучвара","Chuchvara",190,250],
+["Sho'rva","Шурпа","Shurpa",70,350],["Mastava","Мастава","Mastava",80,350],["Moshxo'rda","Машхурда","Mashkhurda",90,350],["Moshkichiri","Мошкичири","Moshkichiri",130,350],
+["Norin","Нарын","Norin",220,250],["Dimlama","Димлама","Dimlama",110,350],["Beshbarmoq","Бешбармак","Beshbarmak",200,350],["Mampar","Мампар","Mampar",90,350],
+["Qozon kabob","Казан-кабоб","Kazan kabob",250,250],["Shashlik (go'sht)","Шашлык","Shashlik",250,150],["Jigar kabob","Печёнка на мангале","Liver kebab",190,120],["Tandir go'sht","Тандыр-мясо","Tandoor lamb",260,200],
+["Do'lma","Долма","Dolma",150,250],["Xonim","Ханум","Khanum",170,250],["Qazi","Казы","Qazy (horse sausage)",320,100],["Kuurdoq","Куурдак","Kuurdak",300,250],
+["Ugra osh","Угра-аш","Ugra osh",120,300],["Achichuk salat","Салат ачичук","Achichuk salad",25,150],["Olivye salati","Оливье","Olivier salad",190,200],["Tarvuz/qovun","Арбуз/дыня","Watermelon/melon",35,300],
+["Non (patir)","Патыр (лепёшка)","Patir (flatbread)",270,100],["Obi non","Оби-нон","Obi non",260,100],["Qatlama","Катлама","Qatlama",380,100],["Lavash","Лаваш","Lavash",240,100],
+["Chak-chak","Чак-чак","Chak-chak",400,50],["Halva","Халва","Halva",520,50],["Navvot","Навват","Navvot (rock sugar)",390,30],["Paxlava","Пахлава","Baklava",430,60],["Sumalak","Сумаляк","Sumalak",150,200],
+["Qaymoq","Каймак","Kaymak (cream)",300,30],["Qatiq","Катык","Katyk (yogurt)",60,200],["Ayron","Айран","Ayran",30,250],["Suzma","Сузьма","Suzma (strained curd)",150,50],["Yashil choy (shakarsiz)","Зелёный чай (без сахара)","Green tea (no sugar)",1,250],["Qora choy + 2 qand","Чёрный чай + 2 сахара","Black tea + 2 sugar",30,250],
+["Borsh","Борщ","Borscht",50,300],["Pelmeni","Пельмени","Pelmeni",250,250],["Blin","Блины","Pancakes",230,100],["Grechka","Гречка","Buckwheat",110,200],["Guruch (qaynatilgan)","Рис отварной","Boiled rice",130,200],
+["Makaron","Макароны","Pasta",160,250],["Kartoshka fri","Картофель фри","French fries",310,120],["Qovurilgan kartoshka","Жареная картошка","Fried potatoes",190,200],["Kotlet","Котлета","Cutlet",220,100],
+["Tovuq (qovurilgan)","Курица жареная","Fried chicken",240,150],["Tuxum","Яйцо","Egg",155,60],["Lavash shaurma","Шаурма","Shawarma",220,250],["Burger","Бургер","Burger",250,200],["Pitsa","Пицца","Pizza",270,120],
+["Olma","Яблоко","Apple",52,150],["Banan","Банан","Banana",89,120],["Uzum","Виноград","Grapes",69,150],["Kola","Кола","Cola",42,330],["Shokolad","Шоколад","Chocolate",540,30]
+];
+var lang=S.get("humo_lang")||"uz", user=null, goal=2000, key="", log=[],last=null,blob=null;
+function esc(s){var d=document.createElement("div");d.textContent=String(s==null?"":s);return d.innerHTML}
+function tr(){var t=T[lang];document.documentElement.lang=lang;
+ [].forEach.call(document.querySelectorAll("[data-t]"),function(e){e.textContent=t[e.dataset.t]});
+ [].forEach.call(document.querySelectorAll("[data-p]"),function(e){e.placeholder=t[e.dataset.p]});
+ $("lang").innerHTML=["uz","ru","en"].map(function(l){return '<button data-l="'+l+'" class="'+(l==lang?"on":"")+'">'+l.toUpperCase()+"</button>"}).join("");
+ $("goal").value=goal;paint();dishes()}
+function paint(){var t=T[lang];am();if(user)$("who").textContent=t.hi+", "+user;var sum=log.reduce(function(a,x){return a+x.k},0),pc=Math.min(100,sum/goal*100);
+ $("eaten").textContent=sum;$("goalv").textContent=goal;$("fill").style.width=pc+"%";$("bar").className="bar"+(sum>goal?" over":"");
+ $("left").textContent=sum>goal?t.over+": "+(sum-goal)+" "+t.kcal:t.left+": "+(goal-sum)+" "+t.kcal;
+ $("logl").innerHTML=log.length?log.map(function(x,i){return '<div class="row"><div class="nm">'+esc(x.n)+'<div class="mut">'+esc(x.g)+'</div></div><b>'+x.k+'</b><button class="x" data-d="'+i+'">✕</button></div>'}).join(""):'<div class="mut">'+t.empty+"</div>"}
+function save(){S.set(key,JSON.stringify(log));paint()}
+function dishes(){var t=T[lang],q=$("q").value.trim().toLowerCase(),i={uz:0,ru:1,en:2}[lang];
+ var r=D.map(function(d,j){return[d,j]}).filter(function(p){return!q||p[0].slice(0,3).join(" ").toLowerCase().indexOf(q)>-1});
+ $("list").innerHTML=r.map(function(p){var d=p[0];return '<div class="row"><div class="nm">'+esc(d[i])+'<div class="mut">'+d[3]+" "+t.kcal+" "+t.per+'</div></div><input type="number" inputmode="numeric" id="g'+p[1]+'" value="'+d[4]+'"><button data-a="'+p[1]+'">+</button></div>'}).join("")}
+document.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+ if(b.dataset.l){lang=b.dataset.l;S.set("humo_lang",lang);tr()}
+ else if(b.dataset.d){log.splice(+b.dataset.d,1);save()}
+ else if(b.dataset.a){var d=D[+b.dataset.a],g=parseFloat($("g"+b.dataset.a).value)||d[4];log.push({n:d[{uz:0,ru:1,en:2}[lang]],g:g+" "+T[lang].g,k:Math.round(d[3]*g/100)});save()}
+ else if(b.id=="addscan"&&last){log.push({n:last.taom,g:last.porsiya,k:Math.round(+last.jami_kkal)||0});save();$("res").innerHTML=""}});
+$("setg").onclick=function(){var v=parseInt($("goal").value);if(v>=500&&v<=10000){goal=v;S.set("humo_goal_"+user,v);paint()}};
+$("q").oninput=dishes;
+var sample=null;
+if(typeof claude!=="undefined"&&claude.use){claude.use("sample").then(function(s){sample=s}).catch(function(){})}
+$("file").onchange=function(e){var f=e.target.files[0];if(!f)return;var im=new Image();im.onload=function(){var k=Math.min(1,1024/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=im.width*k;c.height=im.height*k;c.getContext("2d").drawImage(im,0,0,c.width,c.height);c.toBlob(function(b){blob=b;$("pv").src=URL.createObjectURL(b);$("pv").style.display="block";$("go").style.display="block";$("drop").style.display="none"},"image/jpeg",.82)};im.src=URL.createObjectURL(f)};
+function ask(P,b){if(sample)return sample(P,{images:[b],modelTier:"quick"});
+ return new Promise(function(ok,no){var fr=new FileReader();fr.onload=function(){ok(fr.result.split(",")[1])};fr.onerror=no;fr.readAsDataURL(b)}).then(function(img){
+  return fetch("/.netlify/functions/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({prompt:P,image:img})})}).then(function(r){return r.json()}).then(function(j){if(j.error)throw new Error(j.error);return{text:j.text}})}
+$("go").onclick=function(){var t=T[lang];$("err").textContent=""; var b=$("go");b.disabled=true;b.textContent=t.wait;
+ var P='You are HUMO AI, a calorie estimator. Identify the food in the image (Uzbek dishes like plov, somsa, lagman, manti are common) and estimate the portion. Reply with JSON ONLY, no markdown: {"taom":"dish name in '+t.lang+'","porsiya":"e.g. 300 g","jami_kkal":number,"oqsil_g":number,"yog_g":number,"uglevod_g":number,"maslahat":"one short tip in '+t.lang+'"} or {"xato":"not food"}.';
+ ask(P,blob).then(function(r){var m=r.text.match(/\{[\s\S]*\}/),o=JSON.parse(m[0]);
+  if(o.xato){$("err").textContent=o.xato;return}last=o;
+  $("res").innerHTML='<div class="row" style="display:block"><div class="mut">'+esc(o.taom)+" · "+esc(o.porsiya)+'</div><div class="big">'+esc(o.jami_kkal)+' <span style="font-size:16px">'+t.kcal+'</span></div><div class="mut">'+t.p+" "+esc(o.oqsil_g)+" · "+t.f+" "+esc(o.yog_g)+" · "+t.c+" "+esc(o.uglevod_g)+"</div><div class=\"mut\">💡 "+esc(o.maslahat)+'</div><button id="addscan" style="margin-top:10px">'+t.add+"</button></div>"})
+ .catch(function(){$("err").textContent=t.fail}).then(function(){b.disabled=false;b.textContent=T[lang].analyze})};
+var mode="reg",users={};
+try{users=JSON.parse(S.get("humo_users")||"{}")}catch(e){users={}}
+function hs(s){if(window.crypto&&crypto.subtle){return crypto.subtle.digest("SHA-256",new TextEncoder().encode("humo:"+s)).then(function(b){return Array.prototype.map.call(new Uint8Array(b),function(x){return("0"+x.toString(16)).slice(-2)}).join("")})}var n=5381,i;for(i=0;i<s.length;i++)n=(n*33)^s.charCodeAt(i);return Promise.resolve("w"+(n>>>0))}
+function am(){var t=T[lang];$("ab").textContent=mode=="reg"?t.reg:t.login;$("at").textContent=mode=="reg"?t.haveacc:t.noacc}
+function enter(n){user=n;S.set("humo_session",n);goal=parseInt(S.get("humo_goal_"+n))||2000;key="humo_log_"+n+"_"+new Date().toISOString().slice(0,10);try{log=JSON.parse(S.get(key)||"[]")}catch(e){log=[]}$("auth").style.display="none";$("app").style.display="block";tr()}
+$("at").onclick=function(){mode=mode=="reg"?"login":"reg";$("ae").textContent="";am()};
+$("ab").onclick=function(){var t=T[lang],n=$("an").value.trim().toLowerCase(),p=$("ap").value;$("ae").textContent="";if(!n||p.length<4){$("ae").textContent=t.short;return}
+hs(p).then(function(x){if(mode=="reg"){if(users[n]){$("ae").textContent=t.exists;return}users[n]=x;S.set("humo_users",JSON.stringify(users));enter(n)}else{if(users[n]&&users[n]==x)enter(n);else $("ae").textContent=t.wrong}})};
+$("out").onclick=function(){S.set("humo_session","");user=null;$("ap").value="";$("app").style.display="none";$("auth").style.display="block"};
+var ss=S.get("humo_session");
+if(ss&&users[ss])enter(ss);else{if(Object.keys(users).length)mode="login";tr()}
+})();
+</script>
+<script>if("serviceWorker" in navigator&&location.protocol.indexOf("http")==0){navigator.serviceWorker.register("sw.js").catch(function(){})}</script>
+</body>
+</html>
